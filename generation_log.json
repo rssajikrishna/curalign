@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2025-07-08T20:21:52.452838",
+    "username": "admin",
+    "user_role": "admin",
+    "disease": "Sickle Cell Disease",
+    "num_records": 10,
+    "generation_time": 0.012788057327270508,
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-07-08T20:22:49.394033",
+    "username": "researcher",
+    "user_role": "researcher",
+    "disease": "ALS (Lou Gehrig's Disease)",
+    "num_records": 10,
+    "generation_time": 0.009904146194458008,
+    "ip_address": "127.0.0.1"
+  }
+]
