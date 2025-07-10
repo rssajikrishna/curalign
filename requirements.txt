@@ -1,7 +1,7 @@
 streamlit==1.28.1
-pandas==2.1.1
-faker==19.6.2
-numpy==1.24.3
+pandas==2.2.2
+numpy==1.26.4
+faker
 uuid==1.30
 python-dateutil==2.8.2
 openpyxl==3.1.2
