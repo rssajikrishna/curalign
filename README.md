@@ -1,4 +1,4 @@
-# 🏥 GenSynth-Med: Smart Medical Data Synthetic Generator
+# 🏥Curalign: Smart Medical Data Synthetic Generator
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28.1-red.svg)](https://streamlit.io/)
@@ -8,7 +8,7 @@ A comprehensive GenAI-powered application for generating realistic, privacy-safe
 
 ## 🎯 Overview
 
-GenSynth-Med addresses the critical challenge of insufficient medical data for rare disease research by generating high-quality synthetic patient records. Built for the **Smart Data Synthetic Generator** category of GenAI hackathons, this solution provides researchers with realistic, HIPAA-compliant synthetic data for machine learning model training and validation.
+Curalign addresses the critical challenge of insufficient medical data for rare disease research by generating high-quality synthetic patient records. Built for the **Smart Data Synthetic Generator** category of GenAI hackathons, this solution provides researchers with realistic, HIPAA-compliant synthetic data for machine learning model training and validation.
 
 ## ✨ Key Features
 
@@ -44,8 +44,8 @@ pip package manager
 ### Installation
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/gensynth-med.git
-cd gensynth-med
+git clone https://github.com/your-username/Curalign.git
+cd Curalign
 ```
 
 2. **Install dependencies**
@@ -211,8 +211,8 @@ streamlit run app.py
 ### Production Deployment
 1. **Docker Deployment**
 ```bash
-docker build -t gensynth-med .
-docker run -p 8501:8501 gensynth-med
+docker build -t Curalign .
+docker run -p 8501:8501 Curalign
 ```
 
 2. **Cloud Deployment**
@@ -246,12 +246,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Open Source Community**: For underlying libraries and frameworks
 - **Rare Disease Organizations**: For domain expertise and requirements
 
-## 📞 Support
-
-For questions, issues, or feature requests:
-- **Email**: support@gensynth-med.com
-- **Documentation**: [Wiki](https://github.com/your-username/gensynth-med/wiki)
-- **Issues**: [GitHub Issues](https://github.com/your-username/gensynth-med/issues)
 
 ## 🔮 Future Enhancements
 

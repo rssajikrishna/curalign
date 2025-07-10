@@ -9,7 +9,7 @@ import time
 
 # Page configuration
 st.set_page_config(
-    page_title="GenSynth-Med - Smart Medical Data Generator",
+    page_title="Curalign - Smart Medical Data Generator",
     page_icon="🏥",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -25,7 +25,7 @@ if 'username' not in st.session_state:
 
 def main():
     # Header
-    st.title("🏥 GenSynth-Med")
+    st.title("🏥 Curalign")
     st.subheader("Smart Synthetic Medical Data Generator for Rare Diseases")
     
     # Authentication
@@ -149,7 +149,7 @@ def show_login():
     col1, col2, col3 = st.columns([1, 2, 1])
     
     with col2:
-        st.subheader("Login to GenSynth-Med")
+        st.subheader("Login to Curalign")
         
         username = st.text_input("Username")
         password = st.text_input("Password", type="password")
@@ -272,7 +272,7 @@ def generate_data(disease, num_records, use_ai_summary, summary_detail, data_qua
 
 def generate_summary_report(df, disease, generation_time):
     report = f"""
-GenSynth-Med Generation Report
+Curalign Generation Report
 =============================
 
 Disease: {disease}
